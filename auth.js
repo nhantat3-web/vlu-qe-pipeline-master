@@ -3,12 +3,10 @@ const users = {
     admin: {
         password: "123",
         locked: false
-    },
-
-    lockedUser: {
-        password: "123",
-        locked: true
-    }
+admin: {
+    password: "9999",
+    locked: false
+},
 };
 
 function login(username, password) {
