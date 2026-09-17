@@ -1,0 +1,16 @@
+{
+  "name": "lab1-ktpm-tattrunghau",
+  "version": "1.0.0",
+  "description": "Smoke Test va Regression Test cho chuc nang dang nhap",
+  "main": "auth.js",
+  "scripts": {
+    "test:smoke": "jest auth.smoke.test.js",
+    "test:regression": "jest auth.regression.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
