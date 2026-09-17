@@ -1,4 +1,3 @@
-// update login version 1
 const users = {
     admin: {
         password: "123",
