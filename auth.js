@@ -1,12 +1,14 @@
 // Update login feature
 const users = {
     admin: {
-        password: "123",
+        password: "9999",
         locked: false
-admin: {
-    password: "9999",
-    locked: false
-},
+    },
+
+    lockedUser: {
+        password: "123",
+        locked: true
+    }
 };
 
 function login(username, password) {
