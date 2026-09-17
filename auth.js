@@ -1,7 +1,7 @@
 // Update login feature
 const users = {
     admin: {
-        password: "123",
+        password: "9999",
         locked: false
     },
 
